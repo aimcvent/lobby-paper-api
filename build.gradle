@@ -14,7 +14,7 @@ dependencies {
     compileOnly 'com.google.code.gson:gson:2.10.1';
     compileOnly 'com.github.aimcvent:kernel-api:1.1.0';
     compileOnly 'com.github.aimcvent:paper-api:1.0.0'
-    implementation 'com.github.aimcvent:player-api:1.1.0'
+    compileOnly 'com.github.aimcvent:player-api:1.1.0'
     compileOnly 'com.github.aimcvent:server-api:1.0.0';
     compileOnly 'net.kyori:adventure-text-serializer-legacy:4.24.0'
     compileOnly 'net.kyori:adventure-text-serializer-ansi:4.24.0'
