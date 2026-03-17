@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+    id 'io.papermc.paperweight.userdev' version '2.0.0-beta.17'
+}
+
+group = 'fr.aimcvent'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'com.google.code.gson:gson:2.10.1';
+    compileOnly 'com.github.aimcvent:kernel-api:1.1.0';
+    compileOnly 'com.github.aimcvent:paper-api:1.0.0'
+    implementation 'com.github.aimcvent:player-api:1.1.0'
+    compileOnly 'com.github.aimcvent:server-api:1.0.0';
+    compileOnly 'net.kyori:adventure-text-serializer-legacy:4.24.0'
+    compileOnly 'net.kyori:adventure-text-serializer-ansi:4.24.0'
+    testImplementation 'net.kyori:adventure-text-serializer-ansi:4.24.0'
+    paperweight.paperDevBundle("1.21.8-R0.1-SNAPSHOT")
+}
